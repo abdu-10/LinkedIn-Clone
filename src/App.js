@@ -12,6 +12,7 @@ import Welcome from './Components/LandingPage/Welcome';
 // import {BrowserRouter ,  Routes , Route} from "react-router-dom"
 import Maincontent from './Components/Main Page/Maincontent';
 import Login from './Components/LoginPage/Login';
+import Profile from './Components/Main Page/Profile';
 
 
 
@@ -21,7 +22,7 @@ function App() {
   return(
     <div className="App">
    
-        <NavPanel />
+         {/* <NavPanel />
       <Welcome />
       <Topics />
       <Jobs />
@@ -30,10 +31,10 @@ function App() {
       <Connect /> 
       <Join />
        <Footer />
-      <Footersection />
-{/*    
-      <Maincontent /> */}
-
+      <Footersection />  */}
+    
+      <Maincontent /> 
+    {/* <Profile/> */}
       {/* <Login /> */}
       
       
