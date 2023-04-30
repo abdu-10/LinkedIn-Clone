@@ -2,7 +2,6 @@ import './App.css';
 import {BrowserRouter as Router,  Routes , Route} from "react-router-dom"
 import Maincontent from './Components/Main Page/Maincontent';
 import Login from './Components/LoginPage/Login';
-import Landing from './Components/Main Page/Landing';
 
 
 
