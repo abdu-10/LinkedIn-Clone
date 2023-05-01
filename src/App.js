@@ -13,7 +13,7 @@ import Welcome from './Components/LandingPage/Welcome';
 import Maincontent from './Components/Main Page/Maincontent';
 import Login from './Components/LoginPage/Login';
 import Profile from './Components/Main Page/Profile';
-
+import JobsPage from './Components/Main Page/JobsPage';
 
 
 
@@ -33,7 +33,8 @@ function App() {
        <Footer />
       <Footersection />  */}
     
-      <Maincontent /> 
+      {/* <Maincontent />  */}
+      <JobsPage/>
     {/* <Profile/> */}
       {/* <Login /> */}
       
