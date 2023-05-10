@@ -3,7 +3,11 @@ import {BrowserRouter as Router,  Routes , Route} from "react-router-dom"
 import Maincontent from './Components/Main Page/Maincontent';
 import Login from './Components/LoginPage/Login';
 import Profile from './Components/Main Page/Profile';
+
 import Landing from './Components/Main Page/Landing';
+
+=======
+import JobsPage from './Components/Main Page/JobsPage';
 
 
 
@@ -12,6 +16,7 @@ import Landing from './Components/Main Page/Landing';
 function App() {
   return(
     <div className="App">
+
       <Router>
         <Routes>
           <Route path='/' element={<Landing/>}/>
@@ -20,6 +25,26 @@ function App() {
           <Route path='/profile' element={<Profile/>}/>
         </Routes>
       </Router>  
+
+{/*    
+         <NavPanel />
+      <Welcome />
+      <Topics />
+      <Jobs />
+      <Post />
+      <Testimonals />
+      <Connect /> 
+      <Join /> */}
+       {/* <Footer />
+      <Footersection />  */}
+    
+      <Maincontent /> 
+      {/* <JobsPage/> */}
+    {/* <Profile/> */}
+      {/* <Login /> */}
+      
+      
+
    </div>
      
   );
