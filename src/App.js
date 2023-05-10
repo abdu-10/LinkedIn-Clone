@@ -21,20 +21,20 @@ import JobsPage from './Components/Main Page/JobsPage';
 function App() {
   return(
     <div className="App">
-   
-         {/* <NavPanel />
+{/*    
+         <NavPanel />
       <Welcome />
       <Topics />
       <Jobs />
       <Post />
       <Testimonals />
       <Connect /> 
-      <Join />
-       <Footer />
+      <Join /> */}
+       {/* <Footer />
       <Footersection />  */}
     
-      {/* <Maincontent />  */}
-      <JobsPage/>
+      <Maincontent /> 
+      {/* <JobsPage/> */}
     {/* <Profile/> */}
       {/* <Login /> */}
       
